@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "itachi";
+    src: url(font/Zenzai\ Itachi.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+
+
+.container{
+    max-width: 420px;
+    margin: 0 auto;
+    height: 100vh;
+    max-height: 745px;
+    background: #2d2852;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    font-family: "itachi";
+    color: aliceblue;
+    font-weight: 300;
+}
+
+#result{
+    text-align: center;
+}
+
+#result img{
+    width: 30%;
+    margin: 20px;
+}
+
+#start-txt{
+    font-size: 37px;
+    padding: 20px;
+    font-family: "itachi";
+    color: aliceblue;
+    font-weight: 100;
+}
+
+#group-btn{
+    display: flex;
+    width: 100%;
+}
+
+#group-btn button img{
+    width: 100%;
+    
+}
+
+button{
+    padding: 10px;
+    transition: 0.2s;
+}
+
+button:hover{
+    margin-bottom: 30px;
+    background: black;
+
+}
+
+.end-txt{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    color: aliceblue;
+    background: black;
+    font-family: "itachi";
+}
+
+
+
+
+/*responsive*/
+
+
+@media screen and (max-width: 369px) {
+    
+    h1{
+        font-size: 37px;
+        
+    }
+}
