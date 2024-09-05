@@ -12,6 +12,10 @@
     font-family: monospace;
 }
 
+body{
+    background: #2d2852;
+
+}
 
 
 
@@ -20,7 +24,6 @@
     margin: 0 auto;
     height: 100vh;
     max-height: 745px;
-    background: #2d2852;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -79,8 +82,9 @@ button:hover{
     font-size: 15px;
     font-weight: 300;
     color: aliceblue;
-    background: black;
     font-family: "itachi";
+    margin-top: 30px;
+
 }
 
 
